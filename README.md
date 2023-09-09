@@ -1,1 +1,13 @@
 # renpy-screens-style
+
+## Install
+You can install this library manually: download the zip and extract it in your project folder.
+But I recommend you to use git submodule:
+```bash
+git submodule add -b 1080p -- https://github.com/DRincs-Productions/renpy-screens-style 'game/screens_style'
+```
+
+## Update new version
+```bash
+git submodule update --init --recursive
+```
