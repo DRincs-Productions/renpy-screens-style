@@ -14,7 +14,7 @@ screen close_button(screen_name):
     # button for closure
     imagebutton:
         align (0.95, 0.05)
-        idle '/screens_style/images/close_idle.webp'
+        idle 'gui close_button'
         action [
             Hide(screen_name),
         ]
