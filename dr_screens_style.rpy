@@ -32,7 +32,7 @@ init:
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform middle_action:
-        size (120, 120)
+        size (gui.middle_action_size, gui.middle_action_size)
         on selected_idle:
             yanchor 0 alpha 0.7
         on idle:
@@ -59,7 +59,7 @@ init:
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform small_face:
-        size (60, 60)
+        size (gui.small_face_size, gui.small_face_size)
         on selected_idle:
             yanchor 0 alpha 1.0
         on idle:
