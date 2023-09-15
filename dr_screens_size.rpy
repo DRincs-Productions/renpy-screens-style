@@ -1,4 +1,4 @@
-define dr_multiplicateur = 1
+define dr_multiplicateur = 2
 
 define gui.lateralframescroll_ysize = 850 * dr_multiplicateur
 # text
@@ -17,7 +17,5 @@ define gui.middle_map_size = 50 * dr_multiplicateur
 # nqtr menu_memo
 default gui.menu_memo_image_ysize = 400 * dr_multiplicateur
 default gui.menu_memo_image_xsize = 800 * dr_multiplicateur
-default gui.menu_memo_frame_xsize = 1190
-default gui.menu_memo_frame_ysize = 400
-default gui.menu_memo_frame_xalign = 0.72
-default gui.menu_memo_frame_yalign = 0.6
+default gui.menu_memo_frame_xsize = 1190 * dr_multiplicateur
+default gui.menu_memo_frame_ysize = 400 * dr_multiplicateur
