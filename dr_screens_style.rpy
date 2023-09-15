@@ -131,15 +131,9 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform next_button_tran(rotation = 0):
         rotate rotation
-        on selected_idle:
-            yanchor 0 alpha 0.6
         on idle:
-            yanchor 0 alpha 0.6
+            alpha 0.6 matrixcolor BrightnessMatrix(0)
         on hover:
-            yanchor 1 alpha 1.0
-        on selected_hover:
-            yanchor 1 alpha 1.0
+            alpha 1.0 matrixcolor BrightnessMatrix(0.2)
         on insensitive:
-            yanchor 0 matrixcolor BrightnessMatrix(-0.8)
-        on action:
-            yanchor 0 matrixcolor BrightnessMatrix(-0.5)
+            alpha 0.6 matrixcolor BrightnessMatrix(-0.5)
