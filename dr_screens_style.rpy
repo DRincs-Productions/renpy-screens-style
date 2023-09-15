@@ -4,7 +4,7 @@ style menu_vscroll is vscrollbar:
 
 init:
     transform middle_room:
-        size (136, 136)
+        size (gui.middle_room_size, gui.middle_room_size)
         on selected_idle:
             yanchor 0 alpha 0.9 matrixcolor BrightnessMatrix(-0.3)
         on idle:
@@ -18,7 +18,7 @@ init:
         on action:
             yanchor 0 alpha 0.9 matrixcolor BrightnessMatrix(-0.5)
     transform small_map:
-        size (80, 80)
+        size (gui.small_map_size, gui.small_map_size)
         on selected_idle:
             yanchor 0 matrixcolor BrightnessMatrix(-0.3)
         on idle:
@@ -73,7 +73,7 @@ init:
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform small_menu:
-        size (80, 80)
+        size (gui.small_menu_size, gui.small_menu_size)
         on selected_idle:
             yanchor 0 alpha 0.4
         on idle:
@@ -87,7 +87,7 @@ init:
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform small_menu_mobile:
-        size (100, 100)
+        size (gui.small_menu_mobile_size, gui.small_menu_mobile_size)
         on selected_idle:
             yanchor 0 alpha 0.4
         on idle:
