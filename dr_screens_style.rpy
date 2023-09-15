@@ -114,9 +114,9 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(0)
         on hover:
             yanchor 0 matrixcolor BrightnessMatrix(0.9)
-    transform middle_map(rotation = 0, xsize = 50, ysize = 50):
+    transform middle_map(rotation = 0):
         rotate rotation
-        xysize (xsize, ysize)
+        xysize (gui.middle_map_size, gui.middle_map_size)
         on selected_idle:
             yanchor 0 alpha 0.6
         on idle:
