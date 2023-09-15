@@ -5,5 +5,4 @@ define gui.big_normal_text_size = 28
 define gui.hour_text_size = 60
 
 # nqtr
-define gui.wait_button_size = 300
 define gui.action_talk_button_size = 120
