@@ -10,6 +10,6 @@ define gui.hour_text_size = 60 * dr_multiplicateur
 define gui.middle_action_size = 120 * dr_multiplicateur
 define gui.small_face_size = 60 * dr_multiplicateur
 define gui.middle_room_size = 136 * dr_multiplicateur
-define gui.small_map_size = 136 * dr_multiplicateur
+define gui.small_map_size = 90 * dr_multiplicateur
 define gui.small_menu_size = 80 * dr_multiplicateur
 define gui.small_menu_mobile_size = 100 * dr_multiplicateur
