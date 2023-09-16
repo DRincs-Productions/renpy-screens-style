@@ -86,20 +86,6 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform small_menu_mobile:
-        size (gui.small_menu_mobile_size, gui.small_menu_mobile_size)
-        on selected_idle:
-            yanchor 0 alpha 0.4
-        on idle:
-            yanchor 0 alpha 0.4
-        on hover:
-            yanchor 1 alpha 1.0
-        on selected_hover:
-            yanchor 1 alpha 1.0
-        on insensitive:
-            yanchor 0 matrixcolor BrightnessMatrix(-0.8)
-        on action:
-            yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform close_zoom:
         xanchor 25
         size (75, 25)

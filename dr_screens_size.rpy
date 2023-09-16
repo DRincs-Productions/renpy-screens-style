@@ -1,4 +1,11 @@
-define dr_multiplicateur = 1
+define dr_multiplicateur = 2
+default dr_moblile_zoom = 1
+
+init:
+    if renpy.variant("pc"):
+        $ dr_moblile_zoom = 1
+    else:
+        $ dr_moblile_zoom = 1.5
 
 define gui.lateralframescroll_ysize = 850 * dr_multiplicateur
 # text
@@ -11,11 +18,10 @@ define gui.middle_action_size = 120 * dr_multiplicateur
 define gui.small_face_size = 60 * dr_multiplicateur
 define gui.middle_room_size = 136 * dr_multiplicateur
 define gui.small_map_size = 90 * dr_multiplicateur
-define gui.small_menu_size = 80 * dr_multiplicateur
-define gui.small_menu_mobile_size = 100 * dr_multiplicateur
+define gui.small_menu_size = 80 * dr_multiplicateur * dr_moblile_zoom
 define gui.middle_map_size = 50 * dr_multiplicateur
 # nqtr menu_memo
-default gui.menu_memo_image_ysize = 400 * dr_multiplicateur
-default gui.menu_memo_image_xsize = 800 * dr_multiplicateur
-default gui.menu_memo_frame_xsize = 1190 * dr_multiplicateur
-default gui.menu_memo_frame_ysize = 400 * dr_multiplicateur
+define gui.menu_memo_image_ysize = 400 * dr_multiplicateur
+define gui.menu_memo_image_xsize = 800 * dr_multiplicateur
+define gui.menu_memo_frame_xsize = 1190 * dr_multiplicateur
+define gui.menu_memo_frame_ysize = 400 * dr_multiplicateur
