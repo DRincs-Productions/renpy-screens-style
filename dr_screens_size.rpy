@@ -20,6 +20,7 @@ define gui.middle_room_size = 136 * dr_multiplicateur
 define gui.small_map_size = 90 * dr_multiplicateur
 define gui.small_menu_size = 80 * dr_multiplicateur * dr_moblile_zoom
 define gui.middle_map_size = 50 * dr_multiplicateur
+define gui.dr_close_button_size = 35 * dr_multiplicateur
 # nqtr menu_memo
 define gui.menu_memo_image_ysize = 400 * dr_multiplicateur
 define gui.menu_memo_image_xsize = 800 * dr_multiplicateur

@@ -86,16 +86,9 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform close_zoom:
+    transform dr_close_button_transform:
         xanchor 25
-        size (75, 25)
-        on idle:
-            yanchor 0 matrixcolor BrightnessMatrix(0)
-        on hover:
-            yanchor 0 matrixcolor BrightnessMatrix(0.9)
-    transform close_zoom_mobile:
-        xanchor 35
-        size (105, 35)
+        size (gui.dr_close_button_size, gui.dr_close_button_size)
         on idle:
             yanchor 0 matrixcolor BrightnessMatrix(0)
         on hover:

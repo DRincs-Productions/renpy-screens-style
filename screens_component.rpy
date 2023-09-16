@@ -20,6 +20,4 @@ screen close_button(screen_name):
         ]
         if renpy.variant("pc"):
             focus_mask True
-            at close_zoom
-        else:
-            at close_zoom_mobile
+        at dr_close_button_transform
