@@ -3,7 +3,7 @@ define dr_current_next_value = 0
 screen menu_tile(title):
 
     frame:
-        area (150, 70, 350, 50)
+        area gui.dr_menu_tile_size
         background None
         text title:
             color gui.accent_color
