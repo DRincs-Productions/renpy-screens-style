@@ -1,4 +1,4 @@
-define dr_multiplicateur = 2
+define dr_multiplicateur = 1
 default dr_moblile_zoom = 1
 
 init:
