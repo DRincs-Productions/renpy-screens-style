@@ -8,6 +8,7 @@ init:
         $ dr_moblile_zoom = 1.5
 
 define gui.lateralframescroll_ysize = 850 * dr_multiplicateur
+define gui.dr_menu_tile_size = (150, 70, 350, 50)
 # text
 define gui.little_text_size = 18 * dr_multiplicateur
 define gui.normal_text_size = 24 * dr_multiplicateur
