@@ -1,4 +1,4 @@
-define dr_multiplicateur = 2
+define dr_multiplicateur = 1
 
 define gui.lateralframescroll_ysize = 850 * dr_multiplicateur
 # text
