@@ -3,8 +3,8 @@ style menu_vscroll is vscrollbar:
     unscrollable 'hide'
 
 init:
-    transform middle_room:
-        size (gui.middle_room_size, gui.middle_room_size)
+    transform nqtr_button_room_transform:
+        size (gui.nqtr_button_room_size, gui.nqtr_button_room_size)
         on selected_idle:
             yanchor 0 alpha 0.9 matrixcolor BrightnessMatrix(-0.3)
         on idle:
@@ -17,8 +17,8 @@ init:
             yanchor 0 alpha 0.9 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 alpha 0.9 matrixcolor BrightnessMatrix(-0.5)
-    transform small_map:
-        size (gui.small_map_size, gui.small_map_size)
+    transform nqtr_button_location_transform:
+        size (gui.nqtr_button_location_size, gui.nqtr_button_location_size)
         on selected_idle:
             yanchor 0 matrixcolor BrightnessMatrix(-0.3)
         on idle:
@@ -31,8 +31,8 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform middle_action:
-        size (gui.middle_action_size, gui.middle_action_size)
+    transform nqtr_button_action_transform:
+        size (gui.nqtr_button_action_size, gui.nqtr_button_action_size)
         on selected_idle:
             yanchor 0 alpha 0.7
         on idle:
@@ -45,7 +45,7 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform middle_action_is_in_room:
+    transform nqtr_button_action_picture_transform:
         on selected_idle:
             yanchor 0 matrixcolor BrightnessMatrix(-0.3)
         on idle:
@@ -58,8 +58,8 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform small_face:
-        size (gui.small_face_size, gui.small_face_size)
+    transform dr_small_face_transform:
+        size (gui.dr_small_face_size, gui.dr_small_face_size)
         on selected_idle:
             yanchor 0 alpha 1.0
         on idle:
@@ -72,8 +72,8 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform small_menu:
-        size (gui.small_menu_size, gui.small_menu_size)
+    transform dr_button_menu_transform:
+        size (gui.dr_small_menu_size, gui.dr_small_menu_size)
         on selected_idle:
             yanchor 0 alpha 0.4
         on idle:
@@ -93,9 +93,9 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(0)
         on hover:
             yanchor 0 matrixcolor BrightnessMatrix(0.9)
-    transform middle_map(rotation = 0):
+    transform nqtr_button_map_transform(rotation = 0):
         rotate rotation
-        xysize (gui.middle_map_size, gui.middle_map_size)
+        xysize (gui.nqtr_button_map_size, gui.nqtr_button_map_size)
         on selected_idle:
             yanchor 0 alpha 0.6
         on idle:
@@ -108,7 +108,7 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform next_button_tran(rotation = 0):
+    transform dr_button_next_transform(rotation = 0):
         rotate rotation
         on idle:
             alpha 0.6 matrixcolor BrightnessMatrix(0)
