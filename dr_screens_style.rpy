@@ -1,4 +1,4 @@
-style menu_vscroll is vscrollbar:
+style dr_menu_vscroll is vscrollbar:
     xsize 7
     unscrollable 'hide'
 
