@@ -1,5 +1,5 @@
 init -1:
-    define gui.dr_multiplicateur = 1
+    define gui.dr_multiplicateur = config.screen_height/1080
     default gui.dr_moblile_zoom = 1
 
     if renpy.variant("pc"):
