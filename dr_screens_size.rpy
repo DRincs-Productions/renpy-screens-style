@@ -21,14 +21,14 @@ init -1:
     define gui.nqtr_button_map_size = convert_to_int(50 * gui.dr_multiplicateur)
     define gui.dr_close_button_size = convert_to_int(35 * gui.dr_multiplicateur)
     # screens
-    define gui.nqtr_menu_memo_ypos = convert_to_int(170)
-    define gui.nqtr_menu_memo_xpos = convert_to_int(80)
-    define gui.nqtr_menu_memo_ysize = convert_to_int(850)
-    define gui.nqtr_menu_memo_xsize = convert_to_int(400)
+    define gui.nqtr_menu_memo_ypos = convert_to_int(170 * gui.dr_multiplicateur)
+    define gui.nqtr_menu_memo_xpos = convert_to_int(80 * gui.dr_multiplicateur)
+    define gui.nqtr_menu_memo_ysize = convert_to_int(850 * gui.dr_multiplicateur)
+    define gui.nqtr_menu_memo_xsize = convert_to_int(400 * gui.dr_multiplicateur)
     # nqtr menu_memo
     define gui.nqtr_menu_memo_image_ysize = convert_to_int(400 * gui.dr_multiplicateur)
     define gui.nqtr_menu_memo_image_xsize = convert_to_int(800 * gui.dr_multiplicateur)
     define gui.nqtr_menu_memo_frame_xsize = convert_to_int(1190 * gui.dr_multiplicateur)
     define gui.nqtr_menu_memo_frame_ysize = convert_to_int(400 * gui.dr_multiplicateur)
     # ds userinfo
-    define gui.ds_userinfo_textdistance_xsize = convert_to_int(250)
+    define gui.ds_userinfo_textdistance_xsize = convert_to_int(250 * gui.dr_multiplicateur)
