@@ -2,7 +2,7 @@
 
 ## Install
 
-You can install this library manually: download the zip and extract it in your project folder.   
+You can install this library manually: download the zip and extract it in your project 'game/' folder.   
 But I recommend you to use git submodule:
 
 ```bash
