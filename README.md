@@ -15,6 +15,6 @@ git submodule add -b main -- https://github.com/DRincs-Productions/renpy-screens
 git submodule update --init --recursive
 ```
 
-## other libraries included
+## Other libraries included
 * [Ren'Py Layered Image Masks](https://feniksdev.itch.io/renpy-layered-image-masks)
 
