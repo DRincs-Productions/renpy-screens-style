@@ -16,5 +16,5 @@ git submodule update --init --recursive
 ```
 
 ## Other libraries included
-* [Ren'Py Layered Image Masks](https://feniksdev.itch.io/renpy-layered-image-masks)
+* [Ren'Py Layered Image Masks](https://feniksdev.com/how-to-mask-images-in-renpy/)
 
