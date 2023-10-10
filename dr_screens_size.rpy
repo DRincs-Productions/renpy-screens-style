@@ -15,7 +15,7 @@ init -1:
     # image
     define gui.nqtr_button_action_size = convert_to_int(120 * gui.dr_multiplicateur)
     define gui.dr_small_face_size = convert_to_int(60 * gui.dr_multiplicateur)
-    define gui.nqtr_button_room_size = convert_to_int(136 * gui.dr_multiplicateur)
+    define gui.nqtr_button_room_size = convert_to_int(204 * gui.dr_multiplicateur)
     define gui.nqtr_button_location_size = convert_to_int(90 * gui.dr_multiplicateur)
     define gui.dr_small_menu_size = convert_to_int(80 * gui.dr_multiplicateur * gui.dr_moblile_zoom)
     define gui.nqtr_button_map_size = convert_to_int(50 * gui.dr_multiplicateur)
@@ -35,3 +35,5 @@ init -1:
     # Ren'Py Layered Image Masks
     define gui.sprite_size = 640
     define gui.sprite_elaborate_size = 700
+    define gui.sprite_size_x = 1138
+    define gui.sprite_size_padding_x = convert_to_int((gui.sprite_size_x - gui.sprite_elaborate_size) / 2)
