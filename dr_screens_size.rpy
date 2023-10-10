@@ -32,3 +32,6 @@ init -1:
     define gui.nqtr_menu_memo_frame_ysize = convert_to_int(400 * gui.dr_multiplicateur)
     # ds userinfo
     define gui.ds_userinfo_textdistance_xsize = convert_to_int(250 * gui.dr_multiplicateur)
+    # Ren'Py Layered Image Masks
+    define gui.sprite_size = 640
+    define gui.sprite_elaborate_size = 700
