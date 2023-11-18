@@ -37,3 +37,10 @@ init -1:
     define gui.sprite_elaborate_size = 700
     define gui.sprite_size_x = 1138
     define gui.sprite_size_padding_x = convert_to_int((gui.sprite_size_x - gui.sprite_elaborate_size) / 2)
+    # stmb
+    define gui.smartphone_height = convert_to_int(1080 * gui.dr_multiplicateur)
+    define gui.smartphone_width = convert_to_int(570 * gui.dr_multiplicateur)
+    define gui.smartphone_column_app_number = convert_to_int(4 * gui.dr_multiplicateur)
+    define gui.smartphone_app_icon_size = convert_to_int(75 * gui.dr_multiplicateur)
+    define gui.smartphone_app_icon_space = convert_to_int(45 * gui.dr_multiplicateur)
+    define gui.smartphone_app_icon_space_taskbar = convert_to_int(25 * gui.dr_multiplicateur)
