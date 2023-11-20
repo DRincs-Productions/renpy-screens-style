@@ -44,6 +44,7 @@ init -1:
     define gui.smartphone_screen_width = convert_to_int(gui.smartphone_width - (40 * gui.dr_multiplicateur))
     define gui.smartphone_screen_with_space_width = convert_to_int(gui.smartphone_screen_width - (20 * gui.dr_multiplicateur))
     define gui.smartphone_screen_contacts_width = convert_to_int(gui.smartphone_width - (150 * gui.dr_multiplicateur))
+    define gui.smartphone_screen_contacts_height = convert_to_int(gui.smartphone_height - (350 * gui.dr_multiplicateur))
     define gui.smartphone_screen_app_height = convert_to_int(gui.smartphone_height - (300 * gui.dr_multiplicateur))
     define gui.smartphone_column_app_number = 4
     define gui.smartphone_app_icon_size = convert_to_int(75 * gui.dr_multiplicateur)
