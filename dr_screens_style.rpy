@@ -116,3 +116,20 @@ init:
             alpha 1.0 matrixcolor BrightnessMatrix(0.2)
         on insensitive:
             alpha 0.6 matrixcolor BrightnessMatrix(-0.5)
+    # stmb
+    transform smartphone_nav_button:
+        xanchor 25
+        size (gui.smartphone_nav_button_size, gui.smartphone_nav_button_size)
+        on idle:
+            matrixcolor BrightnessMatrix(0)
+        on hover:
+            matrixcolor BrightnessMatrix(0.2)
+    transform smartphone_app(icon_size):
+        xanchor 25
+        size (icon_size, icon_size)
+        on idle:
+            matrixcolor BrightnessMatrix(0)
+        on hover:
+            matrixcolor BrightnessMatrix(0.2)
+    transform smartphone_contact_icon:
+        size (gui.smartphone_contact_icon_size, gui.smartphone_contact_icon_size)
