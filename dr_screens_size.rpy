@@ -52,3 +52,4 @@ init -1:
     define gui.smartphone_app_icon_space_taskbar = convert_to_int(25 * gui.dr_multiplicateur)
     define gui.smartphone_nav_button_size = convert_to_int(75 * gui.dr_multiplicateur)
     define gui.smartphone_contact_icon_size = convert_to_int(100 * gui.dr_multiplicateur)
+    define gui.smartphone_contact_big_icon_size = convert_to_int(300 * gui.dr_multiplicateur)
