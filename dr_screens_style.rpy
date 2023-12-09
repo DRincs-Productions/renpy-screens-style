@@ -133,3 +133,9 @@ init:
             matrixcolor BrightnessMatrix(0.2)
     transform smartphone_contact_icon:
         size (gui.smartphone_contact_icon_size, gui.smartphone_contact_icon_size)
+    transform tv_remote_control_litled_button:
+        size (gui.tv_remote_control_litled_size, gui.tv_remote_control_litled_size)
+        on idle:
+            matrixcolor BrightnessMatrix(0)
+        on hover:
+            matrixcolor BrightnessMatrix(0.2)
