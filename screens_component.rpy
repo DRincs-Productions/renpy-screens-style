@@ -23,15 +23,17 @@ screen menu_tile(title, scroll=None, yinitial=0.0):
 
     label title
 
-screen close_button(screen_name):
+screen close_button(actions =  [
+        Return(),
+    ]):
 
     # button for closure
     imagebutton:
         align (0.95, 0.05)
         idle 'gui close_button'
-        action [
-            Hide(screen_name),
-        ]
+        action actions,
         if renpy.variant("pc"):
             focus_mask True
         at dr_close_button_transform
+    key 'K_ESCAPE' action actions
+    key 'mouseup_3' action actions
