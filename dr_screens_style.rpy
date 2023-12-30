@@ -116,6 +116,20 @@ init:
             alpha 1.0 matrixcolor BrightnessMatrix(0.2)
         on insensitive:
             alpha 0.6 matrixcolor BrightnessMatrix(-0.5)
+    transform dr_check_box_transform(my_size):
+        size (my_size, my_size)
+        on selected_idle:
+            yanchor 0 alpha 0.7
+        on idle:
+            yanchor 0 alpha 0.7
+        on hover:
+            yanchor 1 alpha 1.0
+        on selected_hover:
+            yanchor 1 alpha 1.0
+        on insensitive:
+            yanchor 0 matrixcolor BrightnessMatrix(-0.8)
+        on action:
+            yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     # stmb
     transform smartphone_nav_button:
         xanchor 25

@@ -37,3 +37,13 @@ screen close_button(actions =  [
         at dr_close_button_transform
     key 'K_ESCAPE' action actions
     key 'mouseup_3' action actions
+
+screen check_box(my_action, value = False, my_size = 40, my_align = (0, 0)):
+    imagebutton:
+        align (my_align)
+        if value:
+            idle 'gui check_box_on'
+        else:
+            idle 'gui check_box_off'
+        action my_action
+        at dr_check_box_transform(my_size)

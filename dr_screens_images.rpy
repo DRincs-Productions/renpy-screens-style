@@ -1,5 +1,7 @@
 image gui triangular_button = "/screens_style/images/triangular_button.webp"
 image gui close_button = "/screens_style/images/close_button.webp"
+image gui check_box_on = "/screens_style/images/check_box_on.webp"
+image gui check_box_off = "/screens_style/images/check_box_off.webp"
 # Ren'Py Layered Image Masks
 image sprite mask = "/screens_style/images/sprite_mask.webp"
 image sprite foreground = "/screens_style/images/sprite_mask_frame.webp"
