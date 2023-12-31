@@ -52,5 +52,5 @@ screen arrow(my_align = (0, 0), my_rotate = 0):
     image "gui triangular_button":
         align my_align
         rotate my_rotate
-        size (gui.dr_triangular_button_size, gui.dr_triangular_button_size)
+        size (gui.dr_triangular_button_size, gui.dr_triangular_arrow_height_button_size)
         at flickering_lights
