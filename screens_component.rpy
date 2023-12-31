@@ -47,3 +47,10 @@ screen check_box(my_action, value = False, my_size = 40, my_align = (0, 0)):
             idle 'gui check_box_off'
         action my_action
         at dr_check_box_transform(my_size)
+
+screen arrow(my_align = (0, 0), my_rotate = 0):
+    image "gui triangular_button":
+        align my_align
+        rotate my_rotate
+        size (gui.dr_triangular_button_size, gui.dr_triangular_button_size)
+        at flickering_lights

@@ -153,3 +153,8 @@ init:
             matrixcolor BrightnessMatrix(0)
         on hover:
             matrixcolor BrightnessMatrix(0.2)
+    transform flickering_lights:
+        matrixcolor BrightnessMatrix(0) 
+        linear 1.0 matrixcolor BrightnessMatrix(0.2)
+        linear 1.0 matrixcolor BrightnessMatrix(0)
+        repeat

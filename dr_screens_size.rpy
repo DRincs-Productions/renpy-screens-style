@@ -20,6 +20,7 @@ init -1:
     define gui.dr_small_menu_size = convert_to_int(80 * gui.dr_multiplicateur * gui.dr_moblile_zoom)
     define gui.nqtr_button_map_size = convert_to_int(50 * gui.dr_multiplicateur)
     define gui.dr_close_button_size = convert_to_int(35 * gui.dr_multiplicateur)
+    define gui.dr_triangular_button_size = convert_to_int(70 * gui.dr_multiplicateur)
     # drawer
     define gui.dr_drawer_ypos = convert_to_int(170 * gui.dr_multiplicateur)
     define gui.dr_drawer_xpos = convert_to_int(80 * gui.dr_multiplicateur)
