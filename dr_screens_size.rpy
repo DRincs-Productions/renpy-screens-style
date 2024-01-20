@@ -32,6 +32,7 @@ init -1:
     define gui.nqtr_menu_memo_image_xsize = convert_to_int(800 * gui.dr_multiplicateur)
     define gui.nqtr_menu_memo_frame_xsize = convert_to_int(1190 * gui.dr_multiplicateur)
     define gui.nqtr_menu_memo_frame_ysize = convert_to_int(400 * gui.dr_multiplicateur)
+    define gui.nqtr_menu_memo_next_button_size = convert_to_int(40 * gui.dr_multiplicateur * gui.dr_moblile_zoom)
     # ds userinfo
     define gui.ds_userinfo_textdistance_xsize = convert_to_int(250 * gui.dr_multiplicateur)
     # Ren'Py Layered Image Masks

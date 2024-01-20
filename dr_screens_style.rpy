@@ -109,6 +109,7 @@ init:
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
     transform dr_button_next_transform(rotation = 0):
+        size (gui.nqtr_menu_memo_next_button_size, gui.nqtr_menu_memo_next_button_size)
         rotate rotation
         on idle:
             alpha 0.6 matrixcolor BrightnessMatrix(0)
