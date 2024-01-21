@@ -38,8 +38,9 @@ init -1:
     # Ren'Py Layered Image Masks
     define gui.sprite_size = 640
     define gui.sprite_elaborate_size = 700
-    define gui.sprite_size_x = 700
-    define gui.sprite_size_padding_x = convert_to_int((gui.sprite_size_x - gui.sprite_elaborate_size) / 2) + 30
+    ## only for image 1920x1080
+    define gui.sprite_size_x = 1032
+    define gui.sprite_size_padding_x = convert_to_int((gui.sprite_size_x - gui.sprite_elaborate_size) / 2)
     # stmb
     define gui.smartphone_height = convert_to_int(1080 * gui.dr_multiplicateur)
     define gui.smartphone_width = convert_to_int(570 * gui.dr_multiplicateur)
