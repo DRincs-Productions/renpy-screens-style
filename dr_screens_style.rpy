@@ -92,14 +92,23 @@ init:
         on idle:
             yanchor 0 matrixcolor BrightnessMatrix(0)
         on hover:
-            yanchor 0 matrixcolor BrightnessMatrix(0.9)
+            matrixcolor BrightnessMatrix(0.5)
+            linear 1.0 matrixcolor BrightnessMatrix(0.2)
+            linear 1.0 matrixcolor BrightnessMatrix(0.5)
+            repeat
     transform nqtr_button_map_transform(rotation = 0):
         rotate rotation
         xysize (gui.nqtr_button_map_size, gui.nqtr_button_map_size)
         on selected_idle:
-            yanchor 0 alpha 0.6
+            yanchor 0 alpha 0.5
+            linear 2.0 alpha 0.8
+            linear 2.0 alpha 0.5
+            repeat
         on idle:
-            yanchor 0 alpha 0.6
+            yanchor 0 alpha 0.5
+            linear 2.0 alpha 0.8
+            linear 2.0 alpha 0.5
+            repeat
         on hover:
             yanchor 1 alpha 1.0
         on selected_hover:
