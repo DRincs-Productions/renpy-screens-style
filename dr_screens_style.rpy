@@ -45,7 +45,7 @@ init:
             yanchor 0 matrixcolor BrightnessMatrix(-0.8)
         on action:
             yanchor 0 matrixcolor BrightnessMatrix(-0.5)
-    transform nqtr_button_action_picture_transform:
+    transform nqtr_button_picture_transform:
         on selected_idle:
             yanchor 0 matrixcolor BrightnessMatrix(-0.3)
         on idle:
