@@ -2,10 +2,10 @@ init -1:
     define gui.dr_multiplicateur = config.screen_height/1080
     default gui.dr_moblile_zoom = 1
 
-    if renpy.variant("pc"):
-        $ gui.dr_moblile_zoom = 1
-    else:
+    if renpy.mobile:
         $ gui.dr_moblile_zoom = 1.5
+    else:
+        $ gui.dr_moblile_zoom = 1
 
     # text
     define gui.dr_little_text_size = convert_to_int(18 * gui.dr_multiplicateur)
