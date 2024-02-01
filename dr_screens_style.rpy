@@ -168,3 +168,9 @@ init:
         linear 1.0 matrixcolor BrightnessMatrix(0.2)
         linear 1.0 matrixcolor BrightnessMatrix(0)
         repeat
+    transform joystick_button:
+        size (150, 150)
+        on idle:
+            matrixcolor BrightnessMatrix(0)
+        on hover:
+            matrixcolor BrightnessMatrix(0.2)
