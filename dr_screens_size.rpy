@@ -22,6 +22,7 @@ init -1:
     define gui.dr_triangular_button_size = convert_to_int(70 * gui.dr_multiplicateur)
     define gui.dr_triangular_arrow_height_button_size = convert_to_int(60 * gui.dr_multiplicateur)
     define gui.notify_image_size = convert_to_int(42 * gui.dr_multiplicateur)
+    define gui.joystick_button_size = convert_to_int(150 * gui.dr_multiplicateur)
     # drawer
     define gui.dr_drawer_ypos = convert_to_int(170 * gui.dr_multiplicateur)
     define gui.dr_drawer_xpos = convert_to_int(80 * gui.dr_multiplicateur)
