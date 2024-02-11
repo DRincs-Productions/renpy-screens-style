@@ -174,3 +174,9 @@ init:
             matrixcolor BrightnessMatrix(0)
         on hover:
             matrixcolor BrightnessMatrix(0.2)
+        on selected_idle:
+            matrixcolor BrightnessMatrix(0.1)
+        on selected_hover:
+            matrixcolor BrightnessMatrix(0.2)
+        on insensitive:
+            matrixcolor BrightnessMatrix(-0.3)
